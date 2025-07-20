@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Olbergsveen - Website & Front End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
+    
+</head>
+<body class="antialiased">
+
+    <main class="main-container max-w-2xl w-full px-4 py-8 md:py-12">
+        
+        <!-- About Me Section -->
+        <section class="text-center mb-12">
+            <div class="flex justify-center mb-6">
+                <img 
+                    src="https://placehold.co/128x128/333/FFF?text=EO" 
+                    alt="Elias Olbergsveen Profile Picture" 
+                    class="w-32 h-32 rounded-full object-cover border-4 border-white profile-glow"
+                    onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/ffffff?text=Error';"
+                >
+            </div>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Elias Olbergsveen</h1>
+            <h2 class="text-2xl font-semibold text-gray-700 mb-6">About Me</h2>
+            <div class="max-w-xl mx-auto text-gray-600 space-y-4 leading-relaxed">
+                <p>
+                    I am a Website & Front-End Developer with experience in creating high-quality, responsive websites and landing pages. I have coded tons of sites and mastered the art of building beautiful and functional user interfaces.
+                </p>
+                <p>
+                    I see many businesses struggle with outdated or poorly performing websites that fail to engage their audience. Which is why I help brands establish a strong online presence with modern, fast, and user-friendly websites that convert visitors into customers.
+                </p>
+            </div>
+        </section>
+
+        <section class="space-y-6">
+            <!-- Portfolio Card -->
+            <a href="#" class="link-card bg-white p-6 rounded-2xl shadow-md flex items-center space-x-6 w-full">
+             
+                <div class="flex-shrink-0">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.22857 32.2286L16.4571 48L32.9143 19.4286L24.6857 4.22857L8.22857 32.2286Z" fill="#00A859"/>
+                        <path d="M32.9143 19.4286L41.1429 4.22857L24.6857 4.22857L16.4571 19.4286L32.9143 19.4286Z" fill="#FFC107"/>
+                        <path d="M41.1429 4.22857L32.9143 19.4286L41.1429 32.2286L49.3714 19.4286C49.3714 19.4286 41.1429 4.22857 41.1429 4.22857Z" fill="#4285F4"/>
+                    </svg>
+                </div>
+                <div class="flex-grow">
+                    <h3 class="text-xl font-bold text-gray-800">Portfolio</h3>
+                    <p class="text-gray-500">Check out past websites built for other clients</p>
+                </div>
+              
+                <div class="flex-shrink-0 bg-gray-100 rounded-full p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-700">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </div>
+            </a>
+
+            <a href="#" class="link-card bg-white p-6 rounded-2xl shadow-md flex items-center space-x-6 w-full">
+             
+                <div class="flex-shrink-0">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="24" fill="#007BFF"/>
+                        <path d="M34 24C34 29.5228 29.5228 34 24 34C18.4772 34 14 29.5228 14 24C14 18.4772 18.4772 14 24 14C26.5425 14 28.8913 14.9452 30.6865 16.5" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="flex-grow">
+                    <h3 class="text-xl font-bold text-gray-800">Book a call</h3>
+                    <p class="text-gray-500">Book a call today to discuss your project</p>
+                </div>
+              
+                <div class="flex-shrink-0 bg-gray-100 rounded-full p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-700">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </div>
+            </a>
+        </section>
+
+        
+        <footer class="mt-12">
+            <div class="flex justify-center items-center space-x-6">
+              
+                <a href="mailto:elias.olbergsveen@example.com" class="text-gray-500 hover:text-gray-800 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+              
+                <a href="#" class="text-gray-500 hover:text-gray-800 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
