@@ -24,10 +24,5 @@ A clean, modern personal website to showcase your work and allow clients to easi
 
 ## 🌐 Live Demo
 
-Check out the live version: 
+Check out the live version: https://github.com/eyy4k/Elias-Portfolio-Landingpage.git
 
-## 🧰 Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-booking-site.git
