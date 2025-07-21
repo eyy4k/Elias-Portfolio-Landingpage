@@ -23,6 +23,6 @@ A clean, modern personal website to showcase your work and allow clients to easi
 
 
 ## 🌐 Live Demo
-
-Check out the live version: https://github.com/eyy4k/Elias-Portfolio-Landingpage.git
+[
+Check out the live version: https://github.com/eyy4k/Elias-Portfolio-Landingpage.git](https://eyy4k.github.io/Elias-Portfolio-Landingpage/)
 
